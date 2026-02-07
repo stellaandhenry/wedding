@@ -8,6 +8,7 @@ import Bus from './components/Bus';
 import Family from './components/Family';
 import Account from './components/Account';
 import Footer from './components/Footer';
+import Calendar from './components/Calendar';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
         <div className="container">
             <Home />
             <Family />
+            <Calendar />
             <Information />
             <Move />
             <Gallery />

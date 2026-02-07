@@ -21,6 +21,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'MapoGeumbitnaru';
+  src: url('https://gcore.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
+}
+
 body {background-color: #282c34; margin: 0px;}
 button{font-family: GangwonEdu_OTFBoldA; font-weight: bold; color: #444;}
 button:disabled {opacity:0.4;}
@@ -44,12 +51,13 @@ a {
 
 /* home */
 .home{padding: 10% 0}
-.home .name{font-size: 2rem; margin-bottom: 5%; display: flex; justify-content: center}
-.home .name .heart{display: flex; justify-content: center; width: 100%;}
-.home .name .tag{width: 100%; font-weight: bold;}
+.home .name{font-family: MapoGeumbitnaru; font-size: 0.8rem; color:#555; margin-bottom: 5%; display: flex; flex-direction:column; justify-content: center; gap: 10px}
+.home .name .heart{font-family: GangwonEdu_OTFBoldA; display: flex; color:#222; justify-content: center; margin-left: 20px; margin-right: 20px; align-items:center}
+.home .name .tag{font-weight: 600; font-size: 1.5rem; margin: 10px;}
+.home .name .dot{font-size: 1.4rem;  color:#333;}
 .home .name img{object-fit: contain;}
 .home .title img{width: 100%;}
-.home .location{font-size: 1.4rem; padding: 5% 0;}
+.home .location{font-family: GangwonEdu_OTFBoldA; font-size: 1.3rem; padding: 5% 0; line-height: 30px; color:#555}
 .grid .square {border: 1px solid #ec6c61; border-left: 0px; padding: 2px;}
 
 /* place */

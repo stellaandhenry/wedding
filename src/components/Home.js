@@ -22,18 +22,17 @@ function Home() {
     return (
         <div className="content home">
             <div className="name">
+                <div>THE NEW BEGINNING</div>
                 <div className="heart">
-                    <div className="tag">
-                        <p>이정현</p>
-                    </div>
-                    <div className="icon">
-                        <motion.div initial="hidden" animate="visible" variants={variants} className="small">
-                            <img src={heart} />
-                        </motion.div>
-                    </div>
-                    <div className="tag">
-                        <p>장아라</p>
-                    </div>
+                    <span className="tag">
+                        이정현
+                    </span>
+                    <span className="tag dot">
+                       그리고
+                    </span>
+                    <span className="tag">
+                        장아라
+                    </span>
                 </div>
             </div>
             <div className="title">
@@ -41,8 +40,8 @@ function Home() {
             </div>
             <div className="location">
                 <p>
-                    2026. 06. 06. 토요일 오전 11:00 <br />
-                    웨딩시티 신도림
+                    2026년 6월 6일 토요일 오전 11:00 <br />
+                    웨딩시티 신도림 8층
                 </p>
             </div>
         </div>
