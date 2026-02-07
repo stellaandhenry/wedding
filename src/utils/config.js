@@ -15,7 +15,7 @@ export const ACCOUNT_INFO = [
                 name: 'OOO',
                 account_bank: '하나은행',
                 account_number: '748-910761-58507',
-                kakaopay: 'https://qr.kakaopay.com/Fa5YOcpWI'
+                kakaopay: 'https://qr.kakaopay.com/Ej837Wv6o'
             }
         ]
     },
