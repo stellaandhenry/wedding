@@ -3,7 +3,7 @@ import maker from '../assets/img/marker.png';
 import useScrollFadeIn from '..//hooks/useScrollFadeIn';
 
 const options = {
-    center: window.kakao ? new window.kakao.maps.LatLng(37.47417, 127.1151) : null, //지도의 중심좌표.
+    center: window.kakao ? new window.kakao.maps.LatLng(37.507059, 126.890223) : null, //지도의 중심좌표.
     level: 6
 };
 
