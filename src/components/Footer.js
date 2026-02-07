@@ -14,7 +14,7 @@ const Information = () => {
                 </CopyToClipboard>
             </div>
             <div className="copyright">
-                Copyright 2022. <span>Sunkyungihwan</span>. All rights reserved.
+                Copyright 2022. <span>sunky0</span>. All rights reserved.
             </div>
         </div>
     );
