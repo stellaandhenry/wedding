@@ -9,6 +9,7 @@ import Family from './components/Family';
 import Account from './components/Account';
 import Footer from './components/Footer';
 import Calendar from './components/Calendar';
+import Contact from './components/Contact';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         <div className="container">
             <Home />
             <Family />
+            <Contact />
             <Calendar />
             <Information />
             <Move />

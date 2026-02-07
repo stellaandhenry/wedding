@@ -35,7 +35,7 @@ function Home() {
                     </span>
                 </div>
             </div>
-            <div className="title">
+            <div className="title1">
                 <img src={photo1} />
             </div>
             <div className="location">

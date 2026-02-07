@@ -46,7 +46,7 @@ function Calendar() {
       <div className="calendar">
         <div  {...animatedItem[0]} className="d-flex justify-content-between align-items-center mb-4 month-header">
           <div style={{display: 'flex', flexDirection: 'column', margin:'10px', gap: '8px'}}>
-            <span style={{fontWeight: 'bold', fontSize: '1.7rem' }}>2026.06.06</span>
+            <span style={{fontWeight: 'bold', fontSize: '1.7rem' }}>2026년 6월 6일</span>
             <span className="ms-2" style={{fontSize: '1.2rem', color: '#555' }}>토요일 오전 11시</span>
           </div>
         </div>
