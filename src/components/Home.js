@@ -24,7 +24,7 @@ function Home() {
             <div className="name">
                 <div className="heart">
                     <div className="tag">
-                        <p>OOO</p>
+                        <p>이정현</p>
                     </div>
                     <div className="icon">
                         <motion.div initial="hidden" animate="visible" variants={variants} className="small">
@@ -41,8 +41,8 @@ function Home() {
             </div>
             <div className="location">
                 <p>
-                    2023. 02. 25. 토요일 낮 01:30 <br />
-                    빌라드 지디 수서
+                    2026. 06. 06. 토요일 오전 11:00 <br />
+                    웨딩시티 신도림
                 </p>
             </div>
         </div>

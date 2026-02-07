@@ -44,7 +44,7 @@ const Family = () => {
                             OOO
                         </span>
                         <span className="relation">의 차남</span>
-                        <span className="name">헨리</span>
+                        <span className="name">이정현</span>
                     </div>
                     <div>
                         <span className="parent">
@@ -53,7 +53,7 @@ const Family = () => {
                             OOO
                         </span>
                         <span className="relation">의 차녀</span>
-                        <span className="name">아라</span>
+                        <span className="name">장아라</span>
                     </div>
                 </div>
             </div>
