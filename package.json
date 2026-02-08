@@ -1,8 +1,8 @@
 {
-    "name": "wedding",
+    "name": "260606",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://stellaandhenry.github.io/wedding/",
+    "homepage": "https://stellaandhenry.github.io/260606/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.16.5",
         "@testing-library/react": "^13.4.0",

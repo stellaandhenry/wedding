@@ -1,4 +1,4 @@
-export const WEDDING_INVITATION_URL = 'https://stellaandhenry.github.io/wedding';
+export const WEDDING_INVITATION_URL = 'https://stellaandhenry.github.io/260606';
 export const ACCOUNT_INFO = [
     {
         type: '신랑',
