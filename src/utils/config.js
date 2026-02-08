@@ -6,8 +6,7 @@ export const ACCOUNT_INFO = [
             {
                 name: '이정현',
                 account_bank: '하나은행',
-                account_number: '484-910032-05307',
-                kakaopay: 'https://qr.kakaopay.com/Ej837Wv6o'
+                account_number: '484-910032-05307'
             }
         ]
     },
@@ -17,8 +16,7 @@ export const ACCOUNT_INFO = [
            {
                 name: '장아라',
                 account_bank: '기업은행',
-                account_number: '644-034572-01-018',
-                kakaopay: 'https://qr.kakaopay.com/Ej837Wv6o'
+                account_number: '644-034572-01-018'
             }
         ]
     }

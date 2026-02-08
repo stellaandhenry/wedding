@@ -8,27 +8,11 @@ function Contact() {
   const contacts = {
     groom: {
       name: "이정현",
-      phone: "010-0000-0000",
+      phone: "010-6543-1513",
     },
     bride: {
       name: "장아라",
       phone: "010-4170-0762",
-    },
-    groomParents: {
-      father: {
-        name: "이재천",
-        phone: "010-0000-0000",
-      },
-      mother: {
-        name: "조명순",
-        phone: "010-0000-0000",
-      },
-    },
-    brideParents: {
-      father: {
-        name: "장창문",
-        phone: "010-0000-0000",
-      }
     },
   };
 
@@ -61,22 +45,9 @@ function Contact() {
         <div {...animatedItem[0]} className="row">
             <div  className="col-6">
                 <ContactItem relationship="신랑" phone={contacts.groom.phone} color="#5F8B9B" showName={false} />
-                <hr />
-                <span className="text-center mb-3" style={{fontSize: '1rem'}}>신랑 측 혼주</span>
-                <div className='parentBox'>
-                    <ContactItem relationship="아버지" name={contacts.groomParents.father.name} phone={contacts.groomParents.father.phone} color="#5F8B9B" />
-                    <ContactItem relationship="어머니" name={contacts.groomParents.mother.name} phone={contacts.groomParents.mother.phone} color="#5F8B9B" />
-                
-                </div>
             </div>
-            <div className="col-6 minw150">
+            <div className="col-6">
                  <ContactItem relationship="신부" phone={contacts.bride.phone} color="#BB7273" showName={false} />
-                 <hr />
-                <span className="text-center mb-3" style={{fontSize: '1rem'}}>신부 측 혼주</span>
-                <div className='parentBox'>
-                  <ContactItem relationship="아버지" name={contacts.brideParents.father.name} phone={contacts.brideParents.father.phone} color="#BB7273" />
-                    
-                </div>
             </div>
         </div>
     </div>
