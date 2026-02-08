@@ -10,7 +10,7 @@ function Bus() {
                 주차 안내
             </h2>
             <div {...animatedItem[1]} className="address">
-                <span>테크노마트 지하3층 ~ 지하7층까지 주차 가능합니다. [무료 3시간]</span>
+                <span>테크노마트 지하3층 ~ 지하7층까지 주차 가능합니다.<br />[무료 3시간]</span>
             </div>
         </div>
     );

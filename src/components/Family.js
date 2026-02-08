@@ -29,9 +29,11 @@ const Family = () => {
                             <div className="quote back"></div>
                         </div>
                         <div {...animatedItem[2]} className="love">
-                            서로의 인생에 다가간 두 사람이 이제 하나가 되어<br />
-                             새로운 시작을 하려는 순간입니다. <br />
-                            귀한 걸음으로 행복의 순간을 함께 축복해주세요.
+                            서로의 인생에 다가간<br />
+                            두 사람이 이제 하나가 되어,<br />
+                             새로운 시작을 하려는 순간입니다. <br /><br />
+                            귀한 걸음으로 행복의 순간을<br />
+                             함께 축복해주세요.
                         </div>
                     </div>
                 </div>
