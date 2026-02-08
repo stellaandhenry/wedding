@@ -17,6 +17,11 @@
   .day-name, .day {
     padding: 0.8rem;
   }
+  @media(max-width: 320px){
+  .day-name, .day {
+    padding: 0.1rem;
+  }
+}
   .day.empty {
     /* empty */
   }

@@ -84,8 +84,12 @@ a {
 /* contact */
 .contact .row {display: flex; margin: 6% 10% ; gap:50px; align-items: center;justify-content: center;}
 .contact .iconFlex {display: flex; margin: 6% 10% ; gap:20px; align-items: center;justify-content: center;}
-.contact .parentBox {display: flex; gap:40px}
-.contact .displayFlex {display: flex; gap:10px; align-items: center; justify-content: center;}
+.contact .parentBox {display: flex; gap:40px; align-items:center; justify-content: center;}
+.contact .displayFlex {display: flex; gap:10px; align-items: center; flex-direction: column; justify-content: center;}
+.minw150 {min-width: 150px;}
+@media(max-width: 400px){
+  .contact .row{flex-direction: column;}
+}
 
 /* information */
 .container .information {margin: 10% 6%;}
@@ -142,11 +146,11 @@ a {
   .image-gallery-slide-wrapper.left,.image-gallery-slide-wrapper.right{width:calc(100% - 87px)}
 }
 .image-gallery-slide-wrapper.image-gallery-rtl{direction:rtl}
-.image-gallery-swipe{height: 550px; display: flex; align-items: center; justify-content:center}
+.image-gallery-slide{height: 660px; display: flex; align-items: center; justify-content:center}
 .image-gallery-slides{line-height:0;overflow:hidden;position:relative;white-space:nowrap;text-align:center; }
 .image-gallery-slide{left:0;position:absolute;top:0;width:100%}
 .image-gallery-slide.center{position:relative}
-.image-gallery-slide .image-gallery-image{width:100%;object-fit:contain}
+.image-gallery-slide .image-gallery-image{width: 100%; object-fit: contain; cursor: pointer;  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 .image-gallery-slide .image-gallery-description{background:rgba(0,0,0,.4);bottom:70px;color:#fff;left:0;line-height:1;padding:10px 20px;position:absolute;white-space:normal}
 @media(max-width: 768px){
   .image-gallery-slide .image-gallery-description{bottom:45px;font-size:.8em;padding:8px 15px}
@@ -159,6 +163,7 @@ a {
 }
 @media(max-width: 480px){
   .image-gallery-bullets .image-gallery-bullet{padding:2.7px}
+  .image-gallery-slide{height: 140vw;}
 }
 .image-gallery-bullets .image-gallery-bullet:focus{transform:scale(1.2);background:#444;border:1px solid #444}
 .image-gallery-bullets .image-gallery-bullet.active{transform:scale(1.2);border:1px solid #fff;background:#fff}

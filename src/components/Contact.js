@@ -16,23 +16,19 @@ function Contact() {
     },
     groomParents: {
       father: {
-        name: "0000",
+        name: "이재천",
         phone: "010-0000-0000",
       },
       mother: {
-        name: "0000",
+        name: "조명순",
         phone: "010-0000-0000",
       },
     },
     brideParents: {
       father: {
-        name: "0000",
+        name: "장창문",
         phone: "010-0000-0000",
-      },
-      mother: {
-        name: "0000",
-        phone: "010-0000-0000",
-      },
+      }
     },
   };
 
@@ -73,12 +69,13 @@ function Contact() {
                 
                 </div>
             </div>
-            <div className="col-6">
+            <div className="col-6 minw150">
                  <ContactItem relationship="신부" phone={contacts.bride.phone} color="#BB7273" showName={false} />
                  <hr />
                 <span className="text-center mb-3" style={{fontSize: '1rem'}}>신부 측 혼주</span>
-                <div className='parentBox'><ContactItem relationship="아버지" name={contacts.brideParents.father.name} phone={contacts.brideParents.father.phone} color="#BB7273" />
-                    <ContactItem relationship="어머니" name={contacts.brideParents.mother.name} phone={contacts.brideParents.mother.phone} color="#BB7273" />
+                <div className='parentBox'>
+                  <ContactItem relationship="아버지" name={contacts.brideParents.father.name} phone={contacts.brideParents.father.phone} color="#BB7273" />
+                    
                 </div>
             </div>
         </div>
