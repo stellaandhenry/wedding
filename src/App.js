@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 import Home from './components/Home';
-import Information from './components/Information';
-import Move from './components/Move';
 import Gallery from './components/Gallery';
 import Place from './components/Place';
 import Bus from './components/Bus';
