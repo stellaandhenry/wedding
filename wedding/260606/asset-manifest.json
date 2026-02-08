@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/wedding/260606/static/css/main.d4ce6959.css",
+    "main.js": "/wedding/260606/static/js/main.2aff5b95.js",
+    "static/media/pic00.jpg": "/wedding/260606/static/media/pic00.cf537d9cf33b02f3a8db.jpg",
+    "static/media/pic01.jpg": "/wedding/260606/static/media/pic01.1e72c9552d11bb32d95d.jpg",
+    "static/media/pic04.jpg": "/wedding/260606/static/media/pic04.ab8dff4c8709af52127f.jpg",
+    "static/media/pic09.jpg": "/wedding/260606/static/media/pic09.026aef54bac72fd9f472.jpg",
+    "static/media/pic10.jpg": "/wedding/260606/static/media/pic10.ee3fdef55f94d71fc972.jpg",
+    "static/media/pic08.jpg": "/wedding/260606/static/media/pic08.60929769dc0f3c6dbdad.jpg",
+    "static/media/pic14.jpg": "/wedding/260606/static/media/pic14.da04cc0e1be5fd286e63.jpg",
+    "static/media/pic13.jpg": "/wedding/260606/static/media/pic13.e77afe992be85d9b993c.jpg",
+    "static/media/pic06.jpg": "/wedding/260606/static/media/pic06.d3359e2e882bbf9ec570.jpg",
+    "static/media/pic11.jpg": "/wedding/260606/static/media/pic11.8474ce0788a830873825.jpg",
+    "static/media/pic07.jpg": "/wedding/260606/static/media/pic07.aedda0fe3491f4652328.jpg",
+    "static/media/pic03.jpg": "/wedding/260606/static/media/pic03.05ab7c00ad317497df06.jpg",
+    "static/media/pic12.jpg": "/wedding/260606/static/media/pic12.3f672e154f0fe967da0f.jpg",
+    "static/media/pic05.jpg": "/wedding/260606/static/media/pic05.a42bbf130b4f9b1ca4e0.jpg",
+    "static/media/pic02.jpg": "/wedding/260606/static/media/pic02.ed07bd0602b49630481d.jpg",
+    "static/media/marker.png": "/wedding/260606/static/media/marker.2fa7d307d1792a2b4c8c.png",
+    "index.html": "/wedding/260606/index.html",
+    "static/media/icon_arrowDown.svg": "/wedding/260606/static/media/icon_arrowDown.50bb85a1b2b41768d3af.svg",
+    "main.d4ce6959.css.map": "/wedding/260606/static/css/main.d4ce6959.css.map",
+    "main.2aff5b95.js.map": "/wedding/260606/static/js/main.2aff5b95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4ce6959.css",
+    "static/js/main.2aff5b95.js"
+  ]
+}
