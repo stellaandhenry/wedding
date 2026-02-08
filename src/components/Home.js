@@ -1,5 +1,5 @@
 import React from 'react';
-import photo1 from '../assets/img/pic00.png';
+import photo1 from '../assets/img/pic00.jpg';
 import heart from '../assets/img/heart.png';
 import { motion, useAnimationControls } from 'framer-motion';
 
@@ -40,7 +40,7 @@ function Home() {
             </div>
             <div className="location">
                 <p>
-                    2026년 6월 6일 토요일 오전 11:00 <br />
+                    2026년 6월 6일 토요일 오전 11시 <br />
                     웨딩시티 신도림 8층
                 </p>
             </div>

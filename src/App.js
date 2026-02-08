@@ -23,8 +23,6 @@ function App() {
             <Family />
             <Contact />
             <Calendar />
-            <Information />
-            <Move />
             <Gallery />
             <Account />
             <Bus />

@@ -20,39 +20,36 @@ const Family = () => {
                             <div className="quote"></div>
                             <div className="cursive">
                                 <i>
-                                    네 번의 모든 계절들과 열두 달의 시간을
+                                    우리 인생은 수많은 작은 순간들로 이루어져 있어요.
                                     <br />
-                                    너와 숨이 차게 매일 사랑하며 함께 할게
+                                    그리고 그 작은 순간들이 우리를 행복하게 만들죠.
                                 </i>
                             </div>
-                            <div className="movie">- 마음을 드려요 IU</div>
+                            <div className="movie">- 영화 어바웃타임</div>
                             <div className="quote back"></div>
                         </div>
                         <div {...animatedItem[2]} className="love">
-                            우연한 만남이 8년간의 사랑이 되었고, <br />
-                            이제 행복한 가정을 이루려고 합니다
-                            <br />
-                            부디 저희의 앞날을 축복해주세요
+                            서로의 인생에 다가간 두 사람이 이제 하나가 되어<br />
+                             새로운 시작을 하려는 순간입니다. <br />
+                            귀한 걸음으로 행복의 순간을 함께 축복해주세요.
                         </div>
                     </div>
                 </div>
                 <div {...animatedItem[3]} className="intro">
                     <div>
                         <span className="parent">
-                        OOO
+                            이재천
                             <span className="dot">·</span>
-                            OOO
+                            조명순
                         </span>
-                        <span className="relation">의 차남</span>
+                        <span className="relation">의 아들</span>
                         <span className="name">이정현</span>
                     </div>
                     <div>
                         <span className="parent">
-                        OOO
-                            <span className="dot">·</span>
-                            OOO
+                        장창문
                         </span>
-                        <span className="relation">의 차녀</span>
+                        <span className="relation">의 딸</span>
                         <span className="name">장아라</span>
                     </div>
                 </div>
