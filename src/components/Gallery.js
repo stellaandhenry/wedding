@@ -14,7 +14,6 @@ import phot10 from '../assets/img/pic10.jpg';
 import phot11 from '../assets/img/pic11.jpg';
 import phot12 from '../assets/img/pic12.jpg';
 import phot13 from '../assets/img/pic13.jpg';
-import phot14 from '../assets/img/pic14.jpg';
 const images = [
     { original: photo1, thumbnail: photo1 },
     { original: photo2, thumbnail: photo2 },
@@ -28,8 +27,7 @@ const images = [
     { original: phot10, thumbnail: phot10 },
     { original: phot11, thumbnail: phot11 },
     { original: phot12, thumbnail: phot12 },
-    { original: phot13, thumbnail: phot13 },
-    { original: phot14, thumbnail: phot14 }
+    { original: phot13, thumbnail: phot13 }
 ];
 function Gallery() {
     const animatedItem = useScrollFadeIn('up', 1, 0);

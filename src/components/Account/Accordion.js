@@ -38,7 +38,7 @@ function Accordion({ data }) {
                         <button>복사하기</button>
                     </CopyToClipboard>
                 )}
-                {data.kakaopay !== '' ? (
+                {data.kakaopay && data.kakaopay !== '' ? (
                     <button
                         className="kakao"
                         onClick={() => {
