@@ -87,7 +87,7 @@ a {
 /* contact */
 .contact .row {display: flex;  margin: 6% 10% ; gap: 100px; align-items: center; justify-content: center;}
 .contact .iconFlex {display: flex; gap:20px; align-items: center;justify-content: center;}
-.contact .iconFlex a, .contact .iconFlex i{width: 30px; height: 30px; border-radius: 50%; padding: 2px}
+.contact .iconFlex a, .contact .iconFlex i{border-radius: 50%; padding: 2px}
 .contact .iconFlex a:active{ box-shadow: 0px 1px 2px #888;}
 .contact .iconFlex a:hover{ box-shadow: 0px 1px 2px #888;}
 .contact .displayFlex {display: flex; gap:10px; align-items: center; flex-direction: column; justify-content: center;}
