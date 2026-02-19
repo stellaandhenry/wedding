@@ -3,8 +3,6 @@ import maker from '../assets/img/marker.png';
 import useScrollFadeIn from '..//hooks/useScrollFadeIn';
 
   const locationName = "웨딩시티 신도림";
-  const address = "서울 구로구 경인로 624";
-  const phone = "02-2162-2100";
   const lat = 37.507559;
   const lng = 126.890223;
 const options = {
