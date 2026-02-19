@@ -2,6 +2,11 @@ import React, { useRef, useEffect } from 'react';
 import maker from '../assets/img/marker.png';
 import useScrollFadeIn from '..//hooks/useScrollFadeIn';
 
+  const locationName = "웨딩시티 신도림";
+  const address = "서울 구로구 경인로 624";
+  const phone = "02-2162-2100";
+  const lat = 37.507559;
+  const lng = 126.890223;
 const options = {
     center: window.kakao ? new window.kakao.maps.LatLng(37.507559, 126.890223) : null, //지도의 중심좌표.
     level: 4
@@ -64,6 +69,17 @@ function Place() {
             </div>
             <div {...animatedItem[2]}>
                 <div id='map' className="map" ref={container}></div>
+            </div>
+            <div className="navigationIcon">
+                <a href={`tmap://route?goalname=${encodeURIComponent(locationName)}&goalx=${lng}&goaly=${lat}`} aria-label='tmap' className="text-center text-decoration-none mx-2">
+                    <img src={`${process.env.PUBLIC_URL}/icon/tmap.jpg`} alt="T-map" style={{width: '40px', height: '40px', borderRadius: '5px'}} />
+                </a>
+                <a href="#" onClick={(e) => { e.preventDefault(); handleKakaoNavi(); }} aria-label='카카오내비'  className="text-center text-decoration-none mx-2">
+                    <img src={`${process.env.PUBLIC_URL}/icon/kakao.png`} alt="Kakao Navi" style={{width: '40px', height: '40px', borderRadius: '5px'}} />
+                 </a>
+                 <a href={`nmap://navigation?dlat=${lat}&dlng=${lng}&dname=${locationName}`} aria-label='네이버지도' className="text-center text-decoration-none mx-2">
+                    <img src={`${process.env.PUBLIC_URL}/icon/naver.jpg`} alt="Naver Map" style={{width: '40px', height: '40px', borderRadius: '5px'}} />
+                </a>
             </div>
             <div {...animatedItem[3]} className="transportation">
                 <div className="transBox">
