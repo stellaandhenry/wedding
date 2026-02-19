@@ -17,6 +17,7 @@ function Place() {
         useScrollFadeIn('up', 1, 0),
         useScrollFadeIn('up', 1, 0),
         useScrollFadeIn('up', 1, 0),
+        useScrollFadeIn('up', 1, 0),
         useScrollFadeIn('up', 1, 0)
     ];
     const container = useRef(null); //지도를 담을 영역의 DOM 레퍼런스
@@ -70,18 +71,18 @@ function Place() {
             <div {...animatedItem[2]}>
                 <div id='map' className="map" ref={container}></div>
             </div>
-            <div className="navigationIcon">
-                <a href={`tmap://route?goalname=${encodeURIComponent(locationName)}&goalx=${lng}&goaly=${lat}`} aria-label='tmap' className="text-center text-decoration-none mx-2">
+            <div className="navigationIcon" {...animatedItem[3]}>
+                <a href={`tmap://route?goalname=${encodeURIComponent(locationName)}&goalx=${lng}&goaly=${lat}`}  className="text-center text-decoration-none mx-2">
                     <img src={`${process.env.PUBLIC_URL}/icon/tmap.jpg`} alt="T-map" style={{width: '40px', height: '40px', borderRadius: '5px'}} />
                 </a>
-                <a href="#" onClick={(e) => { e.preventDefault(); handleKakaoNavi(); }} aria-label='카카오내비'  className="text-center text-decoration-none mx-2">
+                <a href="#" onClick={(e) => { e.preventDefault(); handleKakaoNavi(); }}  className="text-center text-decoration-none mx-2">
                     <img src={`${process.env.PUBLIC_URL}/icon/kakao.png`} alt="Kakao Navi" style={{width: '40px', height: '40px', borderRadius: '5px'}} />
                  </a>
-                 <a href={`nmap://navigation?dlat=${lat}&dlng=${lng}&dname=${locationName}`} aria-label='네이버지도' className="text-center text-decoration-none mx-2">
+                 <a href={`nmap://navigation?dlat=${lat}&dlng=${lng}&dname=${locationName}`} className="text-center text-decoration-none mx-2">
                     <img src={`${process.env.PUBLIC_URL}/icon/naver.jpg`} alt="Naver Map" style={{width: '40px', height: '40px', borderRadius: '5px'}} />
                 </a>
             </div>
-            <div {...animatedItem[3]} className="transportation">
+            <div {...animatedItem[4]} className="transportation">
                 <div className="transBox">
                     <div className="means">지하철</div>
                     <div className="desc">1,2호선 신도림역 3번출구와 테크노마트가 연결되어 있습니다. </div>
